@@ -1,7 +1,7 @@
 app-id: com.jetbrains.CLion
 command: clion
 runtime: org.freedesktop.Sdk
-runtime-version: '25.08'
+runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 separate-locales: false
 tags:
@@ -30,7 +30,7 @@ finish-args:
 add-extensions:
   org.freedesktop.Sdk.Compat.i386:
     directory: lib/i386-linux-gnu
-    version: '25.08'
+    version: '26.08'
 
 modules:
   - name: jetbrains-flatpak-wrapper
@@ -56,8 +56,8 @@ modules:
       - --with-included-zlib
     sources:
       - type: archive
-        url: https://download.samba.org/pub/rsync/src/rsync-3.4.1.tar.gz
-        sha256: 2924bcb3a1ed8b551fc101f740b9f0fe0a202b115027647cf69850d65fd88c52
+        url: https://download.samba.org/pub/rsync/src/rsync-3.5.1.tar.gz
+        sha256: c55f9c9dc10fb8bec397b399a0fdded53cc9a2d8e30891bb0d63724d25c37bef
         x-checker-data:
           project-id: 4217
           stable-only: true
